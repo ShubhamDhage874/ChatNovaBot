@@ -1,0 +1,27 @@
+INSERT INTO universities (name, website, description) VALUES
+('Birla Institute of Technology and Science (BITS), Pilani', 'https://www.bits-pilani.ac.in/', 'One of India''s most prestigious private institutions, known for rigorous engineering, science programs and excellent placements.'),
+('Indian Institute of Technology (IIT), Jodhpur', 'https://www.iitj.ac.in/', 'A public technical university and one of the newest IITs, known for cutting-edge research and strong academics.'),
+('Malaviya National Institute of Technology (MNIT), Jaipur', 'https://www.mnit.ac.in/', 'Public institution known for engineering education and high placement rates.'),
+('Manipal University, Jaipur (MUJ)', 'https://jaipur.manipal.edu/', 'Leading private university with diverse programs in engineering, management, law, and health sciences.'),
+('Banasthali Vidyapith', 'http://www.banasthali.org/', 'Residential university for women, offering a wide array of courses from school to doctoral programs.'),
+('University of Rajasthan (UNIRAJ), Jaipur', 'https://www.uniraj.ac.in/', 'Large public state university with numerous constituent and affiliated colleges.'),
+('Amity University, Rajasthan (AUR), Jaipur', 'https://www.amity.edu/jaipur/', 'Private university known for wide range of courses and modern facilities.'),
+('The LNM Institute of Information Technology (LNMIIT), Jaipur', 'https://lnmiit.ac.in/', 'Specialized institute known for information technology and computer science.'),
+('Jain Vishva Bharati Institute (JVBI), Ladnun', 'https://www.jvbi.ac.in/', 'Deemed university with focus on Jainology, yoga, and distance education.'),
+('M.B.M. University, Jodhpur', 'https://mbm.ac.in/', 'State-run technical university with strong reputation, established by the Government of Rajasthan.');
+INSERT INTO program_levels (name) VALUES
+('Bachelor of Technology'),
+('Bachelor of Science'),
+('BSc-BEd Integrated Teacher Education Program'),
+('Master of Science'),
+('M.Sc. - M.Tech. Dual Degree'),
+('Master of Technology'),
+('Executive M.Tech.'),
+('Masters of Design'),
+('M.Tech.-Ph.D. Dual Degree'),
+('Doctor of Philosophy'),
+('Interdisciplinary Ph.D.'),
+('School of Management and Entrepreneurship'),
+('Masters and Ph.D. Dual Degree'),
+('Masters Programs'),
+('Postgraduate Diploma');

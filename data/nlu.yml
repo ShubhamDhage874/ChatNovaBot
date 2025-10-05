@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hey there
+    - hi bot
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - take care
+    - catch you later
+
+# Unified FAQ intent
+- intent: ask_faq
+  examples: |
+    - What is the admission process?
+    - How do I apply for admission?
+    - Steps for admission
+    - How can I get admission?
+    - Which universities are available?
+    - List all universities
+    - What universities do you support?
+    - Can you show me the universities?
+    - Tell me about [XYZ University](university)
+    - Details of [ABC College](university)
+    - Information on [PQR University](university)
+    - What undergraduate courses are offered?
+    - Show me the list of courses
+    - Which courses do you provide?
+    - Do you have postgraduate programs?
+    - Is there a PhD program?
+    - What is the tuition fee?
+    - How much is the admission fee?
+    - Tell me about hostel charges
+    - What are the exam fees?
+    - How much does it cost to study here?
+    - Can you show me the class timetable?
+    - What is today’s schedule?
+    - When are the classes?
+    - Give me the weekly timetable
+    - Tell me the exam timetable
+    - When are the semester exams?
+    - Exam schedule for this year
+    - When will exams start?
+    - Tell me about the exam timetable
+    - Dates of the upcoming exams
+    - Tell me about the campus facilities
+    - Do you have a library?
+    - Is there a hostel on campus?
+    - What about sports facilities?
+    - What extracurricular activities are available?
+    - How can I apply for a scholarship?
+    - Are scholarships available?
+    - What scholarships do you offer?
+    - Tell me about financial aid
+    - Who can apply for scholarships?

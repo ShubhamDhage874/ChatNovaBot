@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+- rule: Answer FAQs
+  steps:
+    - intent: ask_faq
+    - action: action_search_faq
+
+# Fallback rule
+- rule: Fallback rule
+  steps:
+    - intent: nlu_fallback
+    - action: utter_default
+    
+- rule: respond to help
+  steps:
+  - intent: help
+  - action: utter_help
