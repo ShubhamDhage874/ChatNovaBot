@@ -1,2 +1,1 @@
-web: rasa run --enable-api --cors "*" --port 5005
-worker: rasa run actions --port 5055
+web: uvicorn DATABASE.main:app --host 0.0.0.0 --port 8000
