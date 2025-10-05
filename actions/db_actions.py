@@ -7,8 +7,8 @@ import re
 # Database config
 DB_CONFIG = {
     "dbname": "universitydb",
-    "user": "rasa_user",       # 🔹 खात्री कर user आहे
-    "password": "yourpassword",  # 🔹 इथे तुझा postgres password टाक
+    "user": "rasa_user",
+    "password": "yourpassword",
     "host": "localhost",
     "port": "5432"
 }
